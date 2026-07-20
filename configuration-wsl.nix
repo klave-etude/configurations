@@ -15,5 +15,11 @@
     "flakes"
   ];
 
+  users.defaultUserShell = pkgs.zsh;
+
+  environment.systemPackages = with pkgs; [
+    zsh
+  ];
+
   system.stateVersion = "26.05";
 }
