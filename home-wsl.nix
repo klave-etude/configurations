@@ -2,5 +2,5 @@
   imports = [
     ./direnv.nix
   ];
-  home.stateVersion = "23.11";
+  home.stateVersion = "26.05";
 }

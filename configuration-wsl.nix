@@ -15,5 +15,5 @@
     "flakes"
   ];
 
-  system.stateVersion = "23.11";
+  system.stateVersion = "26.05";
 }
