@@ -21,7 +21,7 @@
          {
            home-manager.useGlobalPkgs = true;
            home-manager.useUserPackages = true;
-           home-manager.users.kleha = import ./home-wsl.nix;
+           home-manager.users.nixos = import ./home-wsl.nix;
            home-manager.backupFileExtension = "bkup";
          }
        ];
