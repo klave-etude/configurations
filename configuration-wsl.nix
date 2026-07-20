@@ -1,3 +1,4 @@
+
 {
   config,
   lib,
@@ -8,11 +9,11 @@
   nixpkgs.config.allowUnfree = true;
 
   wsl.enable = true;
-  wsl.defaultUser = "kleha";
+  wsl.defaultUser = "nixos";
   nix.settings.experimental-features = [
     "nix-command"
     "flakes"
   ];
 
-  system.stateVersion = 23.11;
+  system.stateVersion = "23.11";
 }
