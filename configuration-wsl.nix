@@ -20,6 +20,6 @@
   environment.systemPackages = with pkgs; [
     zsh
   ];
-
+  programs.zsh.enable = true;
   system.stateVersion = "26.05";
 }
